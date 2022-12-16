@@ -17,8 +17,8 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
+import gl from '@/images/logos/gl.svg'
+import servipar from '@/images/logos/servipar.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import cam from '@/images/logos/cam.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
@@ -151,14 +151,14 @@ function Resume() {
     {
       company: 'Grupo Lacsa',
       title: 'Practica Profesional Desarrollo web',
-      logo: logoAirbnb,
+      logo: gl,
       start: '2021',
       end: '2021',
     },
     {
       company: 'Servipar',
       title: 'Practica Laboral Soporte TI',
-      logo: logoFacebook,
+      logo: servipar,
       start: '2018',
       end: '2018',
     },
