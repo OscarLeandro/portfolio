@@ -3,10 +3,10 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
+import calculator from '@/images/logos/calculator.svg'
+import giphy from '@/images/logos/giphy.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+import pokedex from '@/images/logos/pokedex.svg'
 import tictactoe from '@/images/logos/tictactoe.svg'
 
 const projects = [
@@ -17,13 +17,13 @@ const projects = [
     link: { href: 'https://tic-tac-toe-ten-gray.vercel.app/', label: 'tic-tac-toe' },
     logo: tictactoe,
   },
-  // {
-  //   name: 'Animaginary',
-  //   description:
-  //     'High performance web animation library, hand-written in optimized WASM.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoAnimaginary,
-  // },
+  {
+    name: 'Calculadora',
+    description:
+      'Calculadora clasica hecho con react usando hooks de useState y useEffect',
+    link: { href: 'https://calculator-react-khaki.vercel.app/', label: 'calculator-react-khaki.vercel.app' },
+    logo: calculator,
+  },
   // {
   //   name: 'HelioStream',
   //   description:
@@ -31,20 +31,20 @@ const projects = [
   //   link: { href: '#', label: 'github.com' },
   //   logo: logoHelioStream,
   // },
-  // {
-  //   name: 'cosmOS',
-  //   description:
-  //     'The operating system that powers our Planetaria space shuttles.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoCosmos,
-  // },
-  // {
-  //   name: 'OpenShuttle',
-  //   description:
-  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoOpenShuttle,
-  // },
+  {
+    name: 'Buscador de Gifs',
+    description:
+      'Buscador de gifs de la API de Giphy',
+    link: { href: 'https://oscarleandro.github.io/react-gif-app/', label: 'react-gif-app' },
+    logo: giphy,
+  },
+  {
+    name: 'Pokedex Online',
+    description:
+      'Pokedex Online consultando a la API de POKEAPI hecho con Jquery y chart.js para graficos',
+    link: { href: 'https://oscarleandro.github.io/pokedex/', label: 'pokedex.com' },
+    logo: pokedex,
+  },
 ]
 
 function LinkIcon(props) {
